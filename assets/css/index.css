@@ -1,0 +1,20 @@
+body {
+  background: url(index.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.custom-cont{
+margin-top:700px;
+}
+.custom-button{
+width:200px;
+opacity: 0.7;
+padding:auto;
+}
+.custom-button:hover{
+
+width:200px;
+opacity: 0.3;
+}
