@@ -20,7 +20,7 @@ app.get('/sample', function(req, res) {
 
 // START THE SERVER
 // ==============================================
-app.listen(port);
+app.listen(port,"0.0.0.0");
 console.log('Magic happens on port ' + port);
 
 // we'll create our routes here
