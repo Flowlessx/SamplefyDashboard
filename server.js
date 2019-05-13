@@ -44,6 +44,9 @@ router.use(function(req, res, next) {
 router.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
+router.get('/user', function(req, res) {
+    res.sendFile(path.join(__dirname + '/examples/dashboard.html'));
+});
 router.get('/user/live_feed', function(req, res) {
     res.sendFile(path.join(__dirname + '/examples/dashboard.html'));
 });
