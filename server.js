@@ -23,10 +23,10 @@ app.get('/sample', function(req, res) {
 app.listen(port,"0.0.0.0");
 console.log('Magic happens on port ' + port);
 
-// we'll create our routes here
+// set these folders to public
 app.use('/assets', express.static(path.join(__dirname, 'assets')))
-// we'll create our routes here
 app.use('/examples', express.static(path.join(__dirname, 'examples')))
+
 // get an instance of router
 var router = express.Router();
 
@@ -45,7 +45,7 @@ router.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 router.get('/user', function(req, res) {
-    res.sendFile(path.join(__dirname + '/examples/dashboard.html'));
+    res.sendFile(path.join(__dirname + '/examples/home.html'));
 });
 router.get('/user/live_feed', function(req, res) {
     res.sendFile(path.join(__dirname + '/examples/dashboard.html'));
