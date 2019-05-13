@@ -1,0 +1,17 @@
+{
+  "name": "aav-logo",
+  "version": "1.0.0",
+  "description": "An audio visualization for the [Awesome Audio Viz list](https://github.com/willianjusten/awesome-audio-visualization)",
+  "main": "aav.js",
+  "scripts": {
+    "build": "./node_modules/.bin/uglifyjs libraries/*.js aav.js -o main.js"
+  },
+  "repository": {
+  },
+  "bugs": {
+  },
+  "homepage": "https://github.com/marcioshiz/aav-logo#readme",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}

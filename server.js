@@ -26,7 +26,7 @@ console.log('Magic happens on port ' + port);
 // set these folders to public
 app.use('/assets', express.static(path.join(__dirname, 'assets')))
 app.use('/examples', express.static(path.join(__dirname, 'examples')))
-
+app.use('/git_mod', express.static(path.join(__dirname, 'git_mod')))
 // get an instance of router
 var router = express.Router();
 
@@ -47,6 +47,7 @@ router.get('/', function(req, res) {
 router.get('/user', function(req, res) {
     res.sendFile(path.join(__dirname + '/examples/home.html'));
 });
+
 router.get('/user/home', function(req, res) {
     res.sendFile(path.join(__dirname + '/examples/home.html'));
 });
@@ -72,6 +73,10 @@ router.get('/user/royaltys', function(req, res) {
 // about page route (http://localhost:8080/about)
 router.get('/user/cu_support', function(req, res) {
     res.sendFile(path.join(__dirname + '/examples/cu_support.html'));
+});
+
+router.get('/sound_visual', function(req, res) {
+    res.sendFile(path.join(__dirname + '/git_mod/index.html'));
 });
 // route with parameters (http://localhost:8080/hello/:name)
 router.get('/hello/:name', function(req, res) {
