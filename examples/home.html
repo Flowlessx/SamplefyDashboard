@@ -18,7 +18,8 @@
       <!-- CSS Just for demo purpose, don't include it in your project -->
       <link href="../assets/demo/demo.css" rel="stylesheet" />
       <link href="../assets/css/img-slider.css" rel="stylesheet" />
-            <link href="../assets/css/custom.css" rel="stylesheet" />
+      <link href="../assets/css/custom.css" rel="stylesheet" />
+      <link href="../assets/css/sound-ui.css" rel="stylesheet" />
    </head>
    <body class="">
       <div class="wrapper">
@@ -243,7 +244,7 @@
                <div class="row home_row_2">
                   <div class="col-lg-4">
 
-                     <table class="table custom-border-blue">
+                     <table class="table custom-border custom-border-blue">
     <thead>
         <tr>
             <th class="text-center">#</th>
@@ -305,7 +306,7 @@
                   </div>
                   <div class="col-lg-4">
 
-                    <table class="table custom-border-pink">
+                    <table class="table custom-border custom-border-pink">
             <thead>
                 <tr>
                     <th class="text-center">#</th>
@@ -367,7 +368,7 @@
                   </div>
                   <div class="col-lg-4">
 
-                    <table class="table custom-border-green">
+                    <table class="table custom-border custom-border-green">
           <thead>
               <tr>
                   <th class="text-center">#</th>
@@ -429,7 +430,25 @@
                   </div>
                </div>
                <div class="row home_row_3">
-                 <div class="col-lg-4">
+                 <div class="col-lg-12">
+                   <div id="project-wrapper">
+                  	<div id="project-container">
+                  		<div id="overlay"></div>
+                  		<div id="content">
+                  			<h2>Throne</h2>
+                  			<h3>Bring Me The Horizon</h3>
+                  			<input type="range" value="30" />
+                  			<div id="controls">
+                  				<div class="column"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+                  				<div class="column"><i class="fa fa-step-backward" aria-hidden="true"></i></div>
+                  				<div class="column"><i class="fa fa-play play-btn fa-fw" aria-hidden="true"></i></div>
+                  				<div class="column"><i class="fa fa-step-forward" aria-hidden="true"></i></div>
+                  				<div class="column active"><i class="fa fa-random" aria-hidden="true"></i></div>
+                  			</div>
+                  		</div>
+                  	</div>
+                  </div>
+                <h1 id="dailyui">009</h1>
                  </div>
                  <div class="col-lg-4 midbtn">
                       <nav>
@@ -459,6 +478,7 @@
       <!-- Black Dashboard DEMO methods, don't include it in your project! -->
       <script src="../assets/demo/demo.js"></script>
       <script src="../assets/js/img-slider.js"></script>
+      <script src="../assets/js/audio-ui.js"></script>
       <script>
          $(function() {
           $('.play_samplepack').click(function() {

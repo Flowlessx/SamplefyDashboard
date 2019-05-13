@@ -7,10 +7,11 @@
 .home_row3{
  min-height:400px;
 }
+.custom-border{
+    min-height:300px;
+}
+
 .custom-border-blue:hover{
-  padding:20px;
-  min-height:300px;
-  border-radius: ;
    box-shadow:
      10px 0 10px #0ff,
      10px 0 10px #0ff,
@@ -22,9 +23,6 @@
      5px 0 10px #0ff;
 }
 .custom-border-pink:hover{
-  padding:20px;
-  min-height:300px;
-  border-radius: ;
    box-shadow:
      10px 0 10px #e66ad2,
      10px 0 10px #e66ad2,
@@ -36,9 +34,6 @@
      10px 0 10px #e66ad2;
 }
 .custom-border-green:hover{
-  padding:20px;
-  min-height:300px;
-  border-radius: ;
    box-shadow:
      10px 0 10px #29f4cd,
      10px 0 10px #29f4cd,
