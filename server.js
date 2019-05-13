@@ -48,7 +48,7 @@ router.get('/user', function(req, res) {
     res.sendFile(path.join(__dirname + '/examples/home.html'));
 });
 router.get('/usertest', function(req, res) {
-    res.sendFile(path.join(__dirname + '/examples/new_shome.html'));
+    res.sendFile(path.join(__dirname + '/examples/new_home.html'));
 });
 
 router.get('/user/home', function(req, res) {
