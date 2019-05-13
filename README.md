@@ -49,7 +49,7 @@ We are very excited to share this dashboard with you and we look forward to hear
 - `npm i black-dashboard`
 - Clone the repo: `git clone https://github.com/creativetimofficial/black-dashboard.git`.
 - [Download from Github](https://github.com/creativetimofficial/black-dashboard/archive/master.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/black-dashboard).
+- [Download from Flowless Productions](https://www.creative-tim.com/product/black-dashboard).
 
 
 ## Documentation
@@ -132,7 +132,7 @@ If you have questions or need help integrating the product please [contact us]()
 
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com/)
+- Copyright 2018 Flowless Productions (https://www.creative-tim.com/)
 
 - Licensed under MIT (https://github.com/creativetimofficial/black-dashboard/issues/blob/master/LICENSE.md)
 
@@ -140,9 +140,9 @@ If you have questions or need help integrating the product please [contact us]()
 
 ## Useful Links
 
-- [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes) from Flowless Productions
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
+- [Freebies](https://www.creative-tim.com/bootstrap-themes/free) from Flowless Productions
 - [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
 
 ##### Social Media
