@@ -30,19 +30,6 @@ app.use('/examples', express.static(path.join(__dirname, 'examples')))
 // get an instance of router
 var router = express.Router();
 
-// route middleware to validate :name
-router.param('name', function(req, res, next, name) {
-    // do validation on name here
-    // blah blah validation
-    // log something so we know its working
-    console.log('doing name validations on ' + name);
-
-    // once validation is done save the new item in the req
-    req.name = name;
-    // go to the next thing
-    next();
-});
-
 // route middleware that will happen on every request
 router.use(function(req, res, next) {
 
@@ -57,21 +44,33 @@ router.use(function(req, res, next) {
 router.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
-router.get('/user', function(req, res) {
+router.get('/user/live_feed', function(req, res) {
     res.sendFile(path.join(__dirname + '/examples/dashboard.html'));
 });
 // about page route (http://localhost:8080/about)
-router.get('/about', function(req, res) {
-    res.send('im the about page!');
+router.get('/user/trending', function(req, res) {
+    res.sendFile(path.join(__dirname + '/examples/icons.html'));
 });
-
-
+// about page route (http://localhost:8080/about)
+router.get('/user/notifations', function(req, res) {
+    res.sendFile(path.join(__dirname + '/examples/map.html'));
+});
+// about page route (http://localhost:8080/about)
+router.get('/user/user_profile', function(req, res) {
+    res.sendFile(path.join(__dirname + '/examples/user.html'));
+});
+// about page route (http://localhost:8080/about)
+router.get('/user/royaltys', function(req, res) {
+    res.sendFile(path.join(__dirname + '/examples/dashboard.html'));
+});
+// about page route (http://localhost:8080/about)
+router.get('/user/cu_support', function(req, res) {
+    res.sendFile(path.join(__dirname + '/examples/cu_support.html'));
+});
 // route with parameters (http://localhost:8080/hello/:name)
 router.get('/hello/:name', function(req, res) {
     res.send('hello ' + req.name + '!');
 });
-
-
 app.route('/login')
 
     // show the form (GET http://localhost:8080/login)
