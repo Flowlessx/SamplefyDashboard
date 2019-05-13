@@ -2,8 +2,50 @@
  min-height:400px;
 }
 .home_row2{
- min-height:400px;
+ min-height:500px;
 }
 .home_row3{
  min-height:400px;
+}
+.custom-border-blue:hover{
+  padding:20px;
+  min-height:300px;
+  border-radius: ;
+   box-shadow:
+     10px 0 10px #0ff,
+     10px 0 10px #0ff,
+     -10px 0 10px #0ff,
+     10px 0 10px #0ff,
+     -10px 0 10px #0ff,
+     0 0 10px #0ff,
+     -5px 0 10px #0ff,
+     5px 0 10px #0ff;
+}
+.custom-border-pink:hover{
+  padding:20px;
+  min-height:300px;
+  border-radius: ;
+   box-shadow:
+     10px 0 10px #e66ad2,
+     10px 0 10px #e66ad2,
+     -10px 0 10px #e66ad2,
+     10px 0 10px #e66ad2,
+     -10px 0 10px #e66ad2,
+     0 0 10px #e66ad2,
+     -10px 0 10px #e66ad2,
+     10px 0 10px #e66ad2;
+}
+.custom-border-green:hover{
+  padding:20px;
+  min-height:300px;
+  border-radius: ;
+   box-shadow:
+     10px 0 10px #29f4cd,
+     10px 0 10px #29f4cd,
+     -10px 0 10px #29f4cd,
+     10px 0 10px #29f4cd,
+     -10px 0 10px #29f4cd,
+     0 0 10px #29f4cd,
+     -5px 0 10px #29f4cd,
+     5px 0 10px #29f4cd;
 }
