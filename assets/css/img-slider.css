@@ -40,7 +40,22 @@ h2 {
   justify-content: center;
   margin: 20px 0 0;
 }
+.midbtn nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
+}
 .carousel nav button {
+  flex: 0 0 auto;
+  margin: 0 5px;
+  cursor: pointer;
+  color: #ffffff;
+  background: none;
+  border: 1px solid;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+.midbtn nav button {
   flex: 0 0 auto;
   margin: 0 5px;
   cursor: pointer;
