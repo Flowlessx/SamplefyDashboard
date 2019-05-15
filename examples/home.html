@@ -484,15 +484,18 @@
       <script src="../assets/demo/demo.js"></script>
       <script src="../assets/js/img-slider.js"></script>
       <script src="../assets/js/audio-ui.js"></script>
+      <script src="../assets/js/howler/howler.core.js"></script>
       <script>
          $(function() {
           $('.play_samplepack').click(function() {
-               window.location = './sound_visual';
+            var sound = new Howl({
+              src: ['../git_mod/assets/decoder.mp3']
+            });
+            sound.play();
            });
          });
-         var sound = new Howl({
-           src: ['../git_mod/assets/decoder.mp3']
-         });
+
+
 
 sound.play();
       </script>
