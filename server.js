@@ -2,7 +2,7 @@
 
 // BASE SETUP
 // ==============================================
-
+var {Howl, Howler} = require('howler');
 var express = require('express');
 var app     = express();
 var port    =   process.env.PORT || 8080;
