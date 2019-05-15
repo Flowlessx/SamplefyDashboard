@@ -488,16 +488,22 @@
       <script>
          $(function() {
           $('.play_samplepack').click(function() {
-            var sound = new Howl({
-              src: ['../git_mod/assets/decoder.mp3']
+              var sound = new Howl({
+                src: ['../git_mod/assets/decoder.mp3'],
+                sprite: {
+                blast: [0, 3000],
+                laser: [4000, 1000],
+                winner: [6000, 5000]
+                }
+              }
+              sound.play();
             });
-            sound.play();
            });
-         });
 
 
 
-sound.play();
+
+
       </script>
    </body>
 </html>
