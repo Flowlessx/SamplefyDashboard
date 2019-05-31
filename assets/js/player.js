@@ -32,7 +32,7 @@ $(function()
         tFlag = false,
         albums = ['Dawn','Me & You','Electro Boy','Home','Proxy (Original Mix)'],
         trackNames = ['Skylike - Dawn','Alex Skrindo - Me & You','Kaaze - Electro Boy','Jordan Schor - Home','Martin Garrix - Proxy'], albumArtworks = ['_1','_2','_3','_4','_5'],
-        trackUrl = ['https://ia601404.us.archive.org/7/items/thehimalayasingh_gmail_5/2.mp3','https://ia601404.us.archive.org/7/items/thehimalayasingh_gmail_5/1.mp3','https://ia601404.us.archive.org/7/items/thehimalayasingh_gmail_5/3.mp3','https://ia601404.us.archive.org/7/items/thehimalayasingh_gmail_5/4.mp3','https://ia601404.us.archive.org/7/items/thehimalayasingh_gmail_5/5.mp3'],
+        trackUrl = ['./css/audio.mp3','./css/audio.mp3','./css/audio.mp3','./css/audio.mp3','./css/audio.mp3'],
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
         currIndex = -1;
