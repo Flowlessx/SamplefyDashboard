@@ -32,7 +32,7 @@ $(function()
         tFlag = false,
         albums = ['Dawn','Me & You','Electro Boy','Home','Proxy (Original Mix)'],
         trackNames = ['Skylike - Dawn','Alex Skrindo - Me & You','Kaaze - Electro Boy','Jordan Schor - Home','Martin Garrix - Proxy'], albumArtworks = ['_1','_2','_3','_4','_5'],
-        trackUrl = ['./css/audio.mp3','./css/audio.mp3','./css/audio.mp3','./css/audio.mp3','./css/audio.mp3'],
+        trackUrl = ['./assets/css/audio.mp3','./assets/css/audio.mp3','./assets/css/audio.mp3','./assets/css/audio.mp3','./assets/css/audio.mp3'],
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
         currIndex = -1;
