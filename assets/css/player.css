@@ -271,7 +271,7 @@ body {
 .menu .navbar-menu .content-profile .followers .btn-link {
   display: block;
   text-decoration: none;
-  background: linear-gradient(150deg, #5fe265, #13ecce);
+  background: linear-gradient(150deg, #e14eca, #fd5d93);
   color: #0c1121;
   border-radius: 100px;
   padding: 15px 20px 15px;
@@ -392,12 +392,12 @@ body {
   font-weight: 300;
 }
 .content-main .info-album-artist .info-album .option-buttons .btn:nth-child(1) {
-  border: 2px solid #5fe265;
-  background: #5fe265;
+  border: 2px solid #e14eca;
+  background: #e14eca;
   color: #fff;
 }
 .content-main .info-album-artist .info-album .option-buttons .btn:nth-child(2) {
-  border: 2px solid #5fe265;
+  border: 2px solid #e14eca;
   color: #fff;
 }
 .content-main .info-album-artist .info-album .option-buttons .btn:nth-child(n+3) {
@@ -438,7 +438,7 @@ body {
   height: 70px;
   transform: rotateZ(0);
   transition: 0.2s ease all;
-  box-shadow: 0 0 0 2px #5fe265;
+  box-shadow: 0 0 0 2px #e14eca;
   border-radius: 20%;
   overflow: hidden;
 }
@@ -556,10 +556,10 @@ body {
   width: 50px;
   height: 50px;
   padding: 14px 10px 10px;
-  border: 2px solid #5fe265;
+  border: 2px solid #e14eca;
 }
 .control:nth-child(2) .button:hover {
-  background: #5fe265;
+  background: #e14eca;
 }
 .button i {
   display: block;
@@ -618,7 +618,7 @@ body {
 #ins-time {
   position: absolute;
   top: -29px;
-  color: #5fe265;
+  color: #e14eca;
   font-size: 12px;
   white-space: pre;
   padding: 5px 6px;
@@ -643,7 +643,7 @@ body {
   bottom: 0;
   left: 0;
   width: 0;
-  background-color: #5fe265;
+  background-color: #e14eca;
   transition: 0.2s ease width;
   z-index: 1;
 }
