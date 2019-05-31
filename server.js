@@ -15,9 +15,6 @@ var path = require('path');
 app.get('/sample', function(req, res) {
     res.send('this is a sample!');
 });
-
-
-
 // START THE SERVER
 // ==============================================
 app.listen(port,"0.0.0.0");
