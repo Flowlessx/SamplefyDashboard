@@ -15,6 +15,7 @@
       <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
       <!-- CSS Files -->
       <link href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+      <link href="../assets/css/player.css" rel="stylesheet" />
       <!-- CSS Just for demo purpose, don't include it in your project -->
       <link href="../assets/demo/demo.css" rel="stylesheet" />
       <link href="../assets/css/img-slider.css" rel="stylesheet" />
@@ -87,6 +88,54 @@
                   </li>
                </ul>
             </div>
+            <div id="player">
+             <div id="player-content">
+               <div class="cnt-album-art">
+                 <div id="album-art">
+                  <img src="https://ia601504.us.archive.org/8/items/thehimalayasingh_gmail_3/_1.jpg" class="active" id="_1">
+                  <img src="https://ia801504.us.archive.org/8/items/thehimalayasingh_gmail_3/_2.jpg" id="_2">
+                  <img src="https://ia801504.us.archive.org/8/items/thehimalayasingh_gmail_3/_3.jpg" id="_3">
+                  <img src="https://ia601504.us.archive.org/8/items/thehimalayasingh_gmail_3/_4.jpg" id="_4">
+                  <img src="https://ia801504.us.archive.org/8/items/thehimalayasingh_gmail_3/_5.jpg" id="_5">
+                  <div id="buffer-box">Buffering ...</div>
+                  </div>
+                  <div class="album-title-song"></div>
+                  <div class="album-name-artist"></div>
+                </div>
+
+                <div id="player-controls">
+                    <div class="control">
+                    <div class="button" id="play-previous">
+                        <i class="fas fa-backward"></i>
+                    </div>
+                    </div>
+                    <div class="control">
+                    <div class="button" id="play-pause-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    </div>
+                    <div class="control">
+                    <div class="button" id="play-next">
+                        <i class="fas fa-forward"></i>
+                    </div>
+                    </div>
+                </div>
+
+                <div id="player-track">
+                    <div id="track-time">
+                    <div id="current-time"></div>
+                    <div id="track-length"></div>
+                    </div>
+                    <div id="s-area">
+                    <div id="ins-time"></div>
+                    <div id="s-hover"></div>
+                    <div id="seek-bar"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
          </div>
          <div class="main-panel">
             <!-- Navbar -->
@@ -480,6 +529,7 @@
       <script src="../assets/js/plugins/bootstrap-notify.js"></script>
       <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
       <script src="../assets/js/black-dashboard.min.js?v=1.0.0"></script>
+      <script src="../assets/js/player.js"></script>
       <!-- Black Dashboard DEMO methods, don't include it in your project! -->
       <script src="../assets/demo/demo.js"></script>
       <script src="../assets/js/img-slider.js"></script>
